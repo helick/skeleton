@@ -1,0 +1,45 @@
+{
+    "name": "helick/skeleton",
+    "type": "project",
+    "description": "The Helick project skeleton",
+    "keywords": [
+        "helick",
+        "skeleton"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/helick/skeleton/issues",
+        "source": "https://github.com/helick/skeleton"
+    },
+    "authors": [
+        {
+            "name": "Evgenii Nasyrov",
+            "email": "evgenii@helick.io"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "helick/cms": "dev-master"
+    },
+    "extra": {
+        "installer-paths": {
+            "web/content/mu-plugins/{$name}/": [
+                "type:wordpress-muplugin"
+            ],
+            "web/content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "web/content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        },
+        "wordpress-install-dir": "web/wordpress"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
