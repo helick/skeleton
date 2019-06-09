@@ -19,7 +19,7 @@ Make sure all dependencies have been installed before moving on:
 Via Composer:
 
 ``` bash
-$ composer create-project helick/skeleton blog
+$ composer create-project helick/skeleton:dev-master blog
 ```
 
 ## Contributing
