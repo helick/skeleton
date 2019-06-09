@@ -38,6 +38,11 @@
         },
         "wordpress-install-dir": "web/wordpress"
     },
+    "scripts": {
+        "post-autoload-dump": [
+            "wp mu-plugins discover"
+        ]
+    },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
