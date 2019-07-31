@@ -19,10 +19,10 @@
     ],
     "require": {
         "php": ">=7.1",
-        "helick/cms": "dev-master"
+        "helick/cms": "^1.2"
     },
     "require-dev": {
-        "helick/local-server": "dev-master"
+        "helick/local-server": "^1.1"
     },
     "extra": {
         "installer-paths": {
