@@ -3,7 +3,6 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
-[![Quality Score][ico-code-quality]][link-code-quality]
 
 The Helick project skeleton.
 
@@ -41,11 +40,9 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/helick/skeleton.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/helick/skeleton.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/helick/skeleton.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/helick/skeleton
-[link-code-quality]: https://scrutinizer-ci.com/g/helick/skeleton
 [link-downloads]: https://packagist.org/packages/helick/skeleton
 [link-author]: https://github.com/nasyrov
 [link-contributors]: ../../contributors
